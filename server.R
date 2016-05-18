@@ -23,5 +23,7 @@ shinyServer(function(input, output) {
     chartSeries(finalInput(), theme = chartTheme("white"), 
       type = "line", log.scale = input$log, TA = NULL)
   })
+  #commit1
+  #commit2
   
 })
